@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #e0e9f0;
+  color:#2c3842;
+}
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  background-color: #628ca3;
+  padding: 50px 50px;
+  border-radius: 10px;
+  border-bottom: 2px solid #628ca3;
+}
+
+#cabecalho img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 60%;
+  margin-right: 30px;
+}
+
+#cabecalho h1 {
+  font-size: 28px;
+  color:#628ca3;
+  margin: 0;
+}
+
+footer {
+  background-color: #e0e9f0;
+  text-align: center;
+  padding: 15px;
+  color: black;
+  margin-top: 40px;
+}
+
+h1{
+  font-family: phenomena;
+  color: rgb(0, 0,0);
+  font-weight: 300;
+}
+
+h2{
+  font-family: phenomena;
+  color: rgb(0, 0,0);
+  font-weight: 300;
+}
+
+/*  Imagens Comidas Favoritas */
+.tabela-comidas {
+  width: 100%;
+}
+
+.tabela-comidas td {
+  vertical-align: top;
+  padding: 200px;
+}
+
+.esquerda {
+  text-align: left;
+  padding: 50px;
+}
+
+.centro {
+  text-align: center;
+  padding: 50px;
+}
+
+.direita {
+  text-align: right;
+  padding: 50px;
+}
+
+.tabela-comidas img {
+  width: 200px;  
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tabela-comidas img:hover {
+  transform: scale(1.05);
+}
+
+/*  Imagens Doces Favoritos */
+.tabela-doces {
+  width: 100%;
+}
+
+.tabela-doces td {
+  vertical-align: top;
+  padding: 200px;
+}
+
+.esquerda {
+  text-align: left;
+  padding: 50px;
+}
+
+.centro {
+  text-align: center;
+  padding: 50px;
+}
+
+.direita {
+  text-align: right;
+  padding: 50px;
+}
+
+.tabela-doces img {
+  width: 200px;  
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tabela-doces img:hover {
+  transform: scale(1.05);
+}
+
+/*  Livos Favoritos */
+.tabela-livros {
+  width: 100%;
+}
+
+.tabela-livros td {
+  vertical-align: top; 
+  padding: 200px;
+}
+
+.esquerda {
+  text-align: left;
+  padding: 50px;
+}
+
+.centro {
+  text-align: center;
+  padding: 50px;
+}
+
+.direita {
+  text-align: right;
+  padding: 50px;
+}
+
+.tabela-livros img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tabela-livros img:hover {
+  transform: scale(1.05);
+}
