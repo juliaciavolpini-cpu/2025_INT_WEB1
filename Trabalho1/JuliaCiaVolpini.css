@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #e0e9f0;
+  color:#2c3842;
+}
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  background-color: #628ca3;
+  padding: 50px 50px;
+  border-radius: 10px;
+  border-bottom: 2px solid #628ca3;
+}
+
+#cabecalho img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 60%;
+  margin-right: 30px;
+}
+
+#cabecalho h1 {
+  font-size: 28px;
+  color:#628ca3;
+  margin: 0;
+}
+
+footer {
+  background-color: #e0e9f0;
+  text-align: center;
+  padding: 15px;
+  color: black;
+  margin-top: 40px;
+}
+
+h1{
+  font-family: phenomena;
+  color: rgb(0, 0,0);
+  font-weight: 300;
+}
+
+h2{
+  font-family: phenomena;
+  color: rgb(0, 0,0);
+  font-weight: 300;
+}
+
+/*  Imagens Comidas Favoritas */
+.tabela-comidas {
+  width: 100%;
+}
+
+.tabela-comidas td {
+  vertical-align: top;
+  padding: 200px;
+}
+
+.esquerda {
+  text-align: left;
+  padding: 50px;
+}
+
+.centro {
+  text-align: center;
+  padding: 50px;
+}
+
+.direita {
+  text-align: right;
+  padding: 50px;
+}
+
+.tabela-comidas img {
+  width: 200px;  
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tabela-comidas img:hover {
+  transform: scale(1.05);
+}
+
+/*  Imagens Doces Favoritos */
+.tabela-doces {
+  width: 100%;
+}
+
+.tabela-doces td {
+  vertical-align: top;
+  padding: 200px;
+}
+
+.esquerda {
+  text-align: left;
+  padding: 50px;
+}
+
+.centro {
+  text-align: center;
+  padding: 50px;
+}
+
+.direita {
+  text-align: right;
+  padding: 50px;
+}
+
+.tabela-doces img {
+  width: 200px;  
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tabela-doces img:hover {
+  transform: scale(1.05);
+}
+
+/*  Livos Favoritos */
+.tabela-livros {
+  width: 100%;
+}
+
+.tabela-livros td {
+  vertical-align: top; 
+  padding: 200px;
+}
+
+.esquerda {
+  text-align: left;
+  padding: 50px;
+}
+
+.centro {
+  text-align: center;
+  padding: 50px;
+}
+
+.direita {
+  text-align: right;
+  padding: 50px;
+}
+
+.tabela-livros img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tabela-livros img:hover {
+  transform: scale(1.05);
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #2c3842;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #f7f9fc;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+form button {
+  background-color: #628ca3;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #4a6d80;
+}
